@@ -22,7 +22,7 @@ def get_tasks():
 
     output = {
        "tasks": task_list,
-       'total_tasks': 0
+       'total_tasks': len(task_list)
     }
 
     return jsonify(output)
